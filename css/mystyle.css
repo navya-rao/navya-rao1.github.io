@@ -1,3 +1,4 @@
+<!--nav bar styling -->
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,3 +22,10 @@ li a {
 li a:hover {
   background-color: #111;
 }
+<!--end of nav bar styling -->
+
+<!-- name and blurb -->
+name{
+  align=center;
+}
+<!-- end of name and blurb -->
