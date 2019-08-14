@@ -40,7 +40,7 @@ body, html {
 /* parallax class */
 .parallax {
   /* The image used */
-  background-image: url('css/lights.jpg');
+  background-image: url('images/lights.jpg');
 
   /* Full height */
   height: 100%; 
