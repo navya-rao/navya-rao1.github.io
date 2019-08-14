@@ -26,6 +26,9 @@ li a:hover {
 
 <!-- name and blurb -->
 .name{
+  color=red;
+}
+#home{
   align=center;
 }
 
