@@ -1,4 +1,4 @@
-<!--nav bar styling -->
+/* nav bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,17 +19,18 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #111;
 }
-<!--end of nav bar styling -->
 
-<!-- name and blurb -->
-.name{
-  color=red;
+.active {
+  background-color: #4CAF50;
 }
-#home{
-  align=center;
-}
+/* end nav bar */
 
-<!-- end of name and blurb -->
+/* section home*/
+#center {
+  text-align: center;
+  color: red;
+}
+/* end section home */
