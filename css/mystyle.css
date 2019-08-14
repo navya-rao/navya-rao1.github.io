@@ -29,8 +29,8 @@ li a:hover:not(.active) {
 /* end nav bar */
 
 /* section home*/
-.first {
-  text-align: right;
+#first {
+  text-align: center;
   color: green;
 }
 /* end section home */
