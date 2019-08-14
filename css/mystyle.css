@@ -30,7 +30,25 @@ li a:hover:not(.active) {
 
 /* section home*/
 #first {
-  text-align: center;
-  color: blue;
+  text-align: right;
+  color: red;
 }
 /* end section home */
+body, html {
+  height: 100%;
+}
+/* parallax class */
+.parallax {
+  /* The image used */
+  background-image: url('css/lights.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
