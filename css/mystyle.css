@@ -1,4 +1,4 @@
-/* nav bar */
+  /* nav bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -143,4 +143,13 @@ body, html {
 	text-align: center;
 	color: silver;
 }
+#icon{
+	font-size:4vw;
+    color:blue;
+	padding:3vw;
+}
+.iformat{
+	text-align: center;
+}
+
 /* end contact  */
