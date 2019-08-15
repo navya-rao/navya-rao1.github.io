@@ -1,10 +1,11 @@
-/* nav bar */
+ /* nav bar */
 ul {
   list-style-type: none;
   margin: 0;
+  margin: 0 !important;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #001019;
 }
 
 li {
@@ -20,11 +21,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #0D5C63;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #0F394F;
 }
 /* end nav bar */
 
@@ -32,7 +33,8 @@ li a:hover:not(.active) {
 #first {
   text-align: center;
   color: white;
-  margin: 5vw;
+  margin: 8vw;
+	
 }
 /* end id home */
 body, html {
@@ -96,9 +98,9 @@ body, html {
 /* describe id*/
 #describe{
 	float:right;
-    margin-left: 40vw;
+    	margin-left: 40vw;
 	text-align: left;
-    color: gold;
+    	color: gold;
 }
 
 /* end describe id*/
@@ -145,7 +147,7 @@ body, html {
 }
 #icon{
 	font-size:4vw;
-    color:blue;
+    	color:blue;
 	padding:3vw;
 }
 .iformat{
