@@ -28,19 +28,20 @@ li a:hover:not(.active) {
 }
 /* end nav bar */
 
-/* section home*/
+/* id home*/
 #first {
   text-align: center;
-  color: green;
+  color: white;
+  margin: 5vw;
 }
-/* end section home */
+/* end id home */
 body, html {
   height: 100%;
 }
 /* parallax class */
 .parallax {
   /* The image used */
-  background-image: url('https://github.com/navya-rao/navya-rao.github.io/blob/master/images/lights.jpg?raw=true');
+  background-image: url('https://wallpaperbro.com/img/109380.jpg');
 
   /* Full height */
   height: 100%; 
@@ -51,4 +52,54 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* end parallax class */
+/* aboutme id */
+#aboutme{
+	text-align: center;
+    color: purple;
+}
+/* end aboutme id */
+/* describe id*/
+#describe{
+	float:right;
+    margin-left: 40vw;
+	text-align: left;
+    color: gold;
+}
 
+/* end describe id*/
+/* profile */
+#profile{
+	float:left;
+    margin-left:3vw;
+    margin-right:15px;
+    width:170px;
+    height:170px;
+}
+#right{
+    margin-left:1vw;
+    margin-right:4vw;
+}
+/* end profile */
+/* download button */
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 34vw;
+  margin-bottom: 2vw;
+   -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: teal;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 	rgba(0,0,0,0.19);
+}
+/* end download button */
