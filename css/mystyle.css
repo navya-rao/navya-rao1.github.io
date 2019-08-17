@@ -1,11 +1,11 @@
- /* nav bar */
+  /* nav bar */
 ul {
   list-style-type: none;
   margin: 0;
   margin: 0 !important;
   padding: 0;
   overflow: hidden;
-  background-color: #001019;
+  background-color: #00304C;
 }
 
 li {
@@ -21,20 +21,20 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #0D5C63;
+  background-color: #001826;
 }
 
 .active {
-  background-color: #0F394F;
+  background-color: #001826;
 }
 /* end nav bar */
 
 /* background colors */
-.backg_columbiablue{
-	background-color: #C9DDE5;
+.backg_columbiablue{ /* glitter */
+	background-color: #E7ECEF;
 }
-.backg_cyan{
-	background-color: #0D5C63;
+.backg_cyan{ /* another blue */
+	background-color: #002033;
 }
 .backg_zomp{
 	background-color: #39A07C;
@@ -43,26 +43,20 @@ li a:hover:not(.active) {
 	background-color: #0F394F;
 }
 .backg_seashell{
-	background-color: #FFE8E8;
+	background-color: #FFF9F9; /* seashell : FFE8E8 */
 }
 
 /* end background colors */
 
-/* id home*/
-#first {
-  text-align: center;
-  color: white;
-  margin-top: 8vw;
-  margin-bottom: 0;
-}
-/* end id home */
 body, html {
   height: 100%;
 }
 /* parallax class */
 .parallax {
   /* The image used */
-  background-image: url('https://github.com/navya-rao/navya-rao.github.io/blob/master/images/starry_night.jpg?raw=true');
+  background-image: url('https://github.com/navya-rao/navya-rao.github.io/blob/master/images/grass_home.jpg?raw=true');
+  opacity: 0.8;
+
 
   /* Full height */
   height: 100%; 
@@ -75,11 +69,21 @@ body, html {
 }
 /* end parallax class */
 
+/* id home*/
+#first {
+  text-align: center;
+  color: #00131E;
+  margin-top: 0;
+  padding: 4vw;
+  margin-bottom: 0;
+  opacity: 1;
+}
+/* end id home */
 /*column layout for about */
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 3vw;
+  padding: 1vw;
 }
 
 /* Left and right column */
@@ -90,7 +94,7 @@ body, html {
 /* Middle column */
 .column.middle {
 	width: 55%;
-	color: yellow;
+	color: #002033;
 }
 
 /* Clear floats after the columns */
@@ -116,7 +120,7 @@ body, html {
 	padding: 4vw;
 	text-align: center;
 	font-size: 32px;
-    	color: #39A07C;
+    	color: #002033;
 }
 /* end aboutme id */
 /* profile */
@@ -126,16 +130,20 @@ body, html {
     	margin-right: 3vw;
 	margin-bottom: 0;
     	width:18vw;
-    	height:23vw;
+    	height:18vw;
 }
 #right{
     margin-left:1vw;
     margin-right:4vw;
 }
+#describe{
+	font-size: 3vw;
+	margin-top: -1.5vw;
+}
 /* end profile */
 /* download button */
 .button1 {
-  background-color: #39A07C;
+  background-color: #002033;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -143,14 +151,15 @@ body, html {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 34vw;
+  margin-left: 30vw;
+  margin-top: 2vw;
   margin-bottom: 2vw;
    -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .button1:hover {
-  background-color: #0F394F;
+  background-color: #39A07C;
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -160,12 +169,12 @@ body, html {
 	margin-top: 0;
 	padding: 3vw;
 	text-align: center;
-	color: silver;
+	color: #E7ECEF;
 	font-size: 3vw;
 }
 #icon{
 	font-size:4vw;
-    color:blue;
+    	color:#E7ECEF;
 	padding:3vw;
 }
 .iformat{
